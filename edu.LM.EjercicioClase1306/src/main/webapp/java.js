@@ -24,7 +24,9 @@ function pedir() {
 
 
 
-
+if(arrayActividades.length >4){
+	arrayActividades.splice(0,1);
+}
 
 
 	switch (pedirUsu) {
